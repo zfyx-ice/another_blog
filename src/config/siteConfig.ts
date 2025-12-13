@@ -8,7 +8,7 @@ const SITE_LANG = "zh_CN";
 export const siteConfig: SiteConfig = {
 	title: "纸上星辰",
 	subtitle: "用文字打捞生活",
-	site_url: "https://firefly.cuteleaf.cn",
+	site_url: "https://zfyx-ice.vercel.app/",
 	description:
 		"一个人的生活随笔，学习经历",
 	keywords: [
