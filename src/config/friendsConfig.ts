@@ -5,20 +5,20 @@ import type { FriendLink } from "../types/config";
 // 友链配置
 export const friendsConfig: FriendLink[] = [
 	{
-		title: "夏夜流萤",
-		imgurl: "https://q1.qlogo.cn/g?b=qq&nk=7618557&s=640",
-		desc: "飞萤之火自无梦的长夜亮起，绽放在终竟的明天。",
-		siteurl: "https://blog.cuteleaf.cn",
+		title: "昼有昨芳的小窝",
+		imgurl: "https://zfyx-ice.github.io/images/newbackground.jpg",
+		desc: "一个简陋的庇护所。",
+		siteurl: "https://zfyx-ice.github.io/",
 		tags: ["Blog"],
 		weight: 10, // 权重，数字越大排序越靠前
 		enabled: true, // 是否启用
 	},
 	{
-		title: "Firefly Docs",
-		imgurl: "https://docs-firefly.cuteleaf.cn/logo.png",
-		desc: "Firefly主题模板文档",
-		siteurl: "https://docs-firefly.cuteleaf.cn",
-		tags: ["Docs"],
+		title: "ユキの部屋",
+		imgurl: "https://avatars.githubusercontent.com/u/237422127?v=4",
+		desc: "一个简陋的避风港",
+		siteurl: "https://zfyx-ice.github.io/myBlog/",
+		tags: ["Blog"],
 		weight: 9,
 		enabled: true,
 	},
