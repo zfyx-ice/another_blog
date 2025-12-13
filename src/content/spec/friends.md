@@ -12,8 +12,8 @@ description: "与优秀的朋友们一起成长"
 ```yaml
 站点名称: 纸上星辰
 站点描述: 用文字打捞生活。
-站点链接: https://blog.cuteleaf.cn
-头像链接: https://q1.qlogo.cn/g?b=qq&nk=7618557&s=640
+站点链接: https://zfyx-ice.vercel.app/
+头像链接: https://zfyx-ice.vercel.app/assets/images/ZZ.png
 
 ```
 
