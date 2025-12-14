@@ -68,8 +68,8 @@ export const live2dModelConfig: Live2DModelConfig = {
 		offsetY: 0, // 距离底部20px
 	},
 	size: {
-		width: 135, // 容器宽度
-		height: 165, // 容器高度
+		width: 300, // 容器宽度
+		height: 300, // 容器高度
 	},
 	interactive: {
 		enabled: true, // 启用交互功能
