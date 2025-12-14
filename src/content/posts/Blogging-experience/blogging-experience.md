@@ -34,8 +34,10 @@ slug: Some-blogging-experience
    当你的博客项目变得复杂（文章多、图片多、插件多、主题复杂）时，运行 `pnpm dev`或 `npm run build` 可能会突然崩溃，并报出类似这样的错误：  
 `FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of memory`  
 或者构建过程在某个阶段（如“优化 chunks”或“处理图片”）卡住，然后进程被系统杀死。  
-**解决** ：
-通过`NODE_OPTIONS="--max-old-space-size=4096" pnpm dev`  
+**解决** ：  
+通过  
+```NODE_OPTIONS="--max-old-space-size=4096" pnpm dev```
+
  来提高Node.js的内存。  
 # 给同样小白的你：一些真心建议  
 回顾这段经历，我想分享几个最重要的心得：  
